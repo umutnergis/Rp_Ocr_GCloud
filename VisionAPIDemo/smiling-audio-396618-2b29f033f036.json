@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "smiling-audio-396618",
+  "private_key_id": "2b29f033f036e5afcb27372665f0dd4cca6ad5b0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCKBiG+pl7rrOHP\nzQfXfI3IESEBsQDSJXKffHt6sO7wiPa0vQedVr1PmczFDiaBZOc1rdea5YSuwXJ/\ng9fM+ZEGvejD7Z5U6e9D/cESEieWJ14CLPiy1mJtC+0SknK/zUmF1suatOIFaiWn\nvQuKIiFxjofZWH2vW0eALcO/PRe4oJ/2G2bm+Jx+y8g1lAwRRXpvt3IBHCN55/Xe\nDhAsn2w88P0j/kEQm3ZaBDL+/hfD9ZVMBaBgaoqV5zeJ62u008OO57gPxo8Uq5cY\na3cq58Ravki7nrIIPBOMNKoZglGfAodSUmK19MjGUuLBeWjOSmjkTY82pGTdOQK2\n1W/GvyRbAgMBAAECggEAQpAJdw156lNSBSpeNUQKhikIj23CtRW9LP/V9sncOWD8\nBRbCVNUPcBN+ZqvX0wAL5t3DBB7a+YIuSyOUj3PtxmAQoGh4OoAk1NfL5ACgWa/7\njLYObASqq+cb+iBpOWlxoxt+zkmcVLsnlLi9F201TrPLfPxJhKdTGJQ5egEm7vDG\nU9sN1j1OWhlV9bjLSMHvmnlo4YV5PvpfJ+5EpMNa9Wwv36vZRrtK0XOe7HNkrWUr\nd0lkl4WhwCmq+rQrGuUkm3YA4QtcSkln4yGlqhAe2uPOxMJG2fdZwKtgloGbXcya\nTpqOAZxDEcbjyx2BNuryh904YC2P8Lnz5H4wJucN0QKBgQC9syOSfDmsILjBm5kD\nmv9jvR8oZi99uoL4Nkm42/IyHa0Ubok4X2uUv/n0kTS4e7Iv5jX5quJLFmFQs/A6\n+TcZOceF8bLq3WwXv2SwzsHjfVtNjBIhKI3fazC5DvamUGbDD8TMJ6q9WYY3uLyR\nAi1bPhydTfYogveIObdLFI4QsQKBgQC6Q3Fg8WvG57OVr1qjwITy32lJBLvnhuau\nO9pqqEfZ+5FqBSZcSDEtRMLcYB6dMftXRJIKZx+xYTXCtR5wPUCQ4Lzv+DliU4sV\nenEwOCVWGyei5ZKeoikSl2K5V+4WZmsRxyk2u7HiIbGjaHeq4l3VE8e75l9mHfxR\nH4sjTFBoywKBgCOgRQn5sosVCh2yLyZyMYx1tChOKJUgNgCPkYDaLb4jvKGdsL+Z\njAa/lx3LN29+K5S7U1+0LBOV/Gi/olow+5wNMd+B6Owa8XX0R+C8s8UZgdAqgi0g\nBKT06I2YtdG+P85aY8dDm9k7uu00EJXbJtF/9LfGMHijQAGhdT7weU3BAoGAc1U3\naxOR7MOji1fdA/A9YjW7956ayy3YwKIHCGvSscL3s3Ik4pdA/ArLrbFGw4cjXlHz\nK8XW9fp/U2TayBzlUdAWrXBB+ARK5q2+UGEznTGLRW5pbxhx3jUmyCUOI4ifW466\nkk1+Q8shN1GEZ6dq+nkY/9wRziVbCtBBU0X5tCkCgYB91543riV19a8OyPKOaGE5\nMCD9oqIc3pbOfWm8NIdfc+8TPd0X3HnQTUjSmfpGpiWePmtj2yNHR0JXv57pefCL\nNtsRiOnAUpWJNj6OZyw9YlqsxcVt4S9yPlxGe/fMUu6V0C23RJtL47kC7mO+suHi\no4OkRFsl4mhdEktMnP0jPA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ocr-machine@smiling-audio-396618.iam.gserviceaccount.com",
+  "client_id": "115186629607369200272",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ocr-machine%40smiling-audio-396618.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
