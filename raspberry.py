@@ -79,3 +79,5 @@ while True:
         print("Veri gönderildi.")    
     wait_for_close_signal()
     time.sleep(0.1)
+
+# kaç dakika arızada kaldığını da göndereceksin
