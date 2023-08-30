@@ -4,9 +4,9 @@ import cv2
 import datetime
 import os
 
-LDR_PIN = 18
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(LDR_PIN, GPIO.IN)
+LDR_PIN = 18 # GPIO 18
+GPIO.setmode(GPIO.BCM) #GPIO numarical system
+GPIO.setup(LDR_PIN, GPIO.IN) #GPIO 18 as input
 
 
 
@@ -25,10 +25,10 @@ def take_photo() -> str:
         time_string = time.strftime("%Y-%m-%d_%H-%M-%S", current_time)
         photo_path = f"desktop\photo\{time_string}.jpg"
         cv2.imwrite(photo_path, frame)
-        print("Fotoğraf çekildi'.")
+        print("Photo taken'.")
         return photo_path
     else:
-        print("Fotoğraf çekilemedi.")
+        print("Photo could not taken.")
     camera.release()
 
 def send_photo(photo_path : str ) ->bool:
@@ -56,16 +56,17 @@ while True:
     start_time = datetime.datetime.now()
     photo_path = take_photo()
     if photo_path is None:
-        print("Fotoğraf çekilemedi.")
+        print("Photo not taken.")
         continue
     sended = send_photo(photo_path)   
     while not sended :
-        print("Fotoğraf gönderilemedi.")
+        print("Photo not sended.")
         sended = send_photo(take_photo())
-    print("Fotoğraf gönderildi.")
+    print("Photo sent.")
     wait_for_close_signal()
     end_time = datetime.datetime.now()
     elapsed_time = end_time - start_time
     elapsed_time = elapsed_time.total_seconds()
     send_time(elapsed_time)
     os.remove(photo_path)
+
