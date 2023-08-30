@@ -3,7 +3,7 @@ Rasp.py:
   -Bu proje, Raspberry pi için yazılmış olup istenilen durum olduğunda usb kamera ile fotoğraf çekip Google Cloud Vision hizmetini kullanarak görüntülerden metin çıkarma (OCR) işlemi      gerçekleştiren ve çıktı bilgisini api'a gönderen bir uygulamayı içerir. Bu sayede görüntülerdeki metinleri tanımlayabilir, çıkarabilir ve işleyebilirsiniz.
 Cloud_ocr.py:
   -Bu proje Google Cloud Vision hizmetini kullanarak görüntülerden metin çıkarma işlemi gerçekleştiren uygulamayı içerir.
-![Örnek Görüntü](link_to_sample_image.png)
+Örnek görüntü kısa sürede yüklenecek.
 
 ## Özellikler
 
